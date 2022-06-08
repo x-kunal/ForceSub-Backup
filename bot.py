@@ -19,7 +19,7 @@ User = Client(session_name=SESSION,
  
 @Bot.on_message(filters.private & filters.command("start"))
 async def start(bot, message):
-    await message.reply(f"<b>𝖧ᴇʟʟᴏ {message.from_user.mention} !</b>\n\n<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : @KD_Botz 😈</b>",
+    await message.reply(f"<b>𝖧ᴇʟʟᴏ {message.from_user.mention} !</b>\n\n<b>Aᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ Fᴏʀᴡᴀʀᴅ ғɪʟᴇs ғʀᴏᴍ ɢʀᴏᴜᴘs ᴛᴏ ᴄʜᴀɴɴᴇʟ & Dᴏ ғᴏʀᴄᴇ sᴜʙ ᴏɴ ᴍᴇᴍʙᴇʀs</b>\n\n<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : @KD_Botz 😈</b>",
                         disable_web_page_preview=True)
 
 @Bot.on_message(filters.chat(GROUPS))
