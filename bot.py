@@ -1,6 +1,6 @@
 # (C) KD Botz 
 
-# January 15th 2022
+# June 8th 2022
 
 from pyrogram import Client, filters, idle
 from helpers import copy_msg, force_sub, check_fsub, auto_delete
