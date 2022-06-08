@@ -1,4 +1,4 @@
-# KD Botz 
+# (C) KD Botz 
 
 # January 15th 2022
 
